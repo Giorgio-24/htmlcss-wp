@@ -55,18 +55,43 @@ a{
     text-transform: uppercase;  
     color: #868686;
 }
-nav{
-    height: 600px;
-    margin-bottom: 30px;
-    background-color: #e1d67a;
-}
 
 /* Main */
 
-main:nth-child(3).clearfix{
-    background-color: #0185fc;
+main.clearfix{
     margin-bottom: 15px;
     padding-bottom: 30px;
+}
+
+section#eo{
+    height: 600px;
+    margin-bottom: 30px;
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 30%;
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+div.nav-text{
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 410px 560px 50px 50px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+h2{
+    font-weight: 100;
+    font-size: 35px;
+
+}
+
+p{
+    font-size: 18px;
 }
 
 nav.bg-lightblue{
