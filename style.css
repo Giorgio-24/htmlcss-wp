@@ -9,6 +9,7 @@
 div#container{
     max-width: 1200px;
     margin: 30px auto;
+    color:#929292
 }
 
 .clearfix::after{
@@ -20,10 +21,11 @@ div#container{
 .main-elements-cf{
     float: left;
     height: 600px;
+    width: 25%;
 }
 
 .bg-lightblue{
-    background-color: #abcfe7;
+    background-color: lightblue;
 }
 /* Header */
 
@@ -58,12 +60,12 @@ a{
 
 /* Main */
 
-main.clearfix{
+main{
     margin-bottom: 15px;
     padding-bottom: 30px;
 }
 
-section#eo{
+section#main-first-section{
     height: 600px;
     margin-bottom: 30px;
     background-image: url(./img/banner.jpg);
@@ -84,11 +86,9 @@ div.nav-text{
     border-radius: 20px;
 }
 
-h2{
+div > h2{
     font-weight: 100;
-    font-size: 35px;
-
-}
+    font-size: 35px;}
 
 p{
     font-size: 18px;
@@ -97,11 +97,15 @@ p{
 nav.bg-lightblue{
     height: 100px;
     margin-bottom: 30px;
+    padding-top: 45px;
 }
 
-main aside.bg-lightblue{
-    width: 25%;
+nav.bg-lightblue > h2{
+    font-size: 35px;
+    color: #000;
 }
+
+
 
 article:first-of-type.bg-lightblue{
     width: calc(50% - 60px);
