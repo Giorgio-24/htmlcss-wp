@@ -145,5 +145,11 @@ article:first-of-type{
 
 footer:last-child{
     height: 50px;
-    background-color: #8801fe;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+#hearts{
+    color: #ff0000;
 }
